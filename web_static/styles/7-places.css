@@ -1,0 +1,23 @@
+.places {
+    margin-top: 20px; /* Adjust based on your layout */
+}
+
+.places h1 {
+    font-size: 30px;
+    margin-left: 20px; /* Adjust for alignment */
+}
+
+article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    display: inline-block; /* Change to 'flex' if you prefer a row layout */
+}
+
+article h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
