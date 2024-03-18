@@ -1,0 +1,34 @@
+.locations, .amenities {
+    position: relative;
+}
+
+.popover {
+    display: none;
+    position: absolute;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    width: 100%;
+    z-index: 1; /* Ensures dropdown appears above other content */
+}
+
+.locations:hover .popover,
+.amenities:hover .popover {
+    display: block; /* Show dropdown on hover */
+}
+
+.popover ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.popover li {
+    padding: 10px; /* Adjust as needed */
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.popover li:last-child {
+    border-bottom: none; /* Remove border for the last item */
+}
+
