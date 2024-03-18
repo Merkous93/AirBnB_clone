@@ -1,0 +1,18 @@
+.places {
+    /* Base styles */
+}
+
+article {
+    /* Adjustments for articles */
+}
+
+@media (max-width: 768px) {
+    .places {
+        /* Adjust layout for small screens */
+    }
+    article {
+        /* Make articles full width or adjust padding/margins */
+        flex: 0 0 100%;
+    }
+}
+

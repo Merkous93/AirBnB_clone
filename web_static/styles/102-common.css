@@ -1,0 +1,10 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    /* Other base styles */
+}
+
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+}
+

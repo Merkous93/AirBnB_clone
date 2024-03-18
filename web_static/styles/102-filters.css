@@ -1,0 +1,13 @@
+.filters {
+    /* Base styles */
+}
+
+@media (max-width: 768px) {
+    .filters {
+        /* Adjust layout, perhaps stack filters vertically */
+    }
+    .filters button {
+        /* Adjust button size as needed */
+    }
+}
+

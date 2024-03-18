@@ -1,0 +1,11 @@
+/* Example for the header */
+header {
+    /* Base styles */
+}
+
+@media (max-width: 768px) {
+    header {
+        /* Smaller screen adjustments */
+    }
+}
+
