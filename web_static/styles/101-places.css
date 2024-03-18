@@ -1,0 +1,16 @@
+.places {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap as needed */
+    justify-content: space-between; /* Adjusts space between the items */
+    align-items: stretch; /* Ensures that items stretch to fill the container */
+}
+
+article {
+    /* Existing article styles */
+    display: flex;
+    flex-direction: column; /* Stacks article content vertically */
+    justify-content: space-between; /* Distributes space between items */
+    margin: 20px; /* Adjust based on layout */
+    flex: 0 1 390px; /* Flex-grow, flex-shrink, and flex-basis */
+}
+
