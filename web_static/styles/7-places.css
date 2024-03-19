@@ -1,23 +1,28 @@
 .places {
-    margin-top: 20px; /* Adjust based on your layout */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
 }
 
 .places h1 {
     font-size: 30px;
-    margin-left: 20px; /* Adjust for alignment */
+    width: 100%;
+    margin-bottom: 0px;
+    padding-left: 20px;
 }
 
-article {
+.places article {
     width: 390px;
     padding: 20px;
     margin: 20px;
     border: 1px solid #FF5A5F;
     border-radius: 4px;
-    display: inline-block; /* Change to 'flex' if you prefer a row layout */
+    text-align: center;
 }
 
-article h2 {
+.places article h2 {
     font-size: 30px;
-    text-align: center;
+    margin: 0px;
 }
 
